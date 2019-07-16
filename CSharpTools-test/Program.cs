@@ -17,10 +17,10 @@ namespace CSharpTools_test
 
         static void Main(string[] args)
         {
-            //P p = new P(() =>
-            //{
-            //    Console.WriteLine("1");
-            //});
+            P p = new P(() =>
+            {
+                Console.WriteLine("1");
+            });
 
             Program pro = new Program();
             pro.Func();
